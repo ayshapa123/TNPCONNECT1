@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./community.component.css']
 })
 export class CommunityComponent {
+  m:any="more";
  community:any=[{
   "name":"SoulDEVS",
   "description":"The lost souls of developers 👻"
@@ -27,6 +28,12 @@ export class CommunityComponent {
   "description":"Nothing but food🍔🍕🍟🧆"
  }];
 
-
+//  toggleExpansion(i:any){
+//   this.post[i].isExpanded=!this.post[i].isExpanded
+//   if(this.post[i].isExpanded)
+//     this.m="less"
+//   else
+//    this.m="more"
+// }
  
 }

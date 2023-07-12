@@ -11,12 +11,12 @@ app-community{
    background-color: #FFF;
    margin-left:9%;
    margin-top: 7%;
-   width: 26%;
+   width: 20%;
    height: fit-content;
    border-radius: 5%  
 }
 app-personalinfo{
-     /* height: 500px; */
+     height: fit content;
      background-color: #fff;
      /* margin-left:6% ; */
      /* margin-top:7%; */

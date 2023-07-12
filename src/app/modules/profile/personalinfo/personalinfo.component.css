@@ -66,11 +66,11 @@
 
     height: 100%;
 
-    background-color: #E7E6E7;
+    background-color: rgba(41, 80, 81, 0.05);;
 
     position: absolute;
 
-    border-radius: 5px;
+    border-radius: 10px;
 
 
 
@@ -86,10 +86,12 @@ p{
 i{
     color:#9BA9AA;
     font-size: 23px;
-    margin-left: -51px;
+    margin-left: -49px;
     z-index: 2;
     position: absolute;
     margin-top: 12px;
+    display: flex;
+    align-items: center;
 
 
 
