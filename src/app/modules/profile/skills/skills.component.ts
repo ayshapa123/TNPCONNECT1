@@ -14,6 +14,7 @@ export class SkillsComponent {
   newskill:any='';
 
   skillset:any=["abc","absaf",'dgsg',"sgfh",'dfsh','fdhh','fdsh','gsdah']
+  passion:any=["Club Soccer Paris","CLub Motor Paris",'Club Raquettes Marseille']
 
   ngOnInit(): void {
 

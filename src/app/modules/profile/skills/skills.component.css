@@ -1,50 +1,17 @@
-/* .skillset{
+* {
+    font-family: Outfit;
+}
 
-    display: flex;
-
-    flex-wrap: wrap;
-
-
-
+.tc-skillSection {
+    padding: 35px;
 
 }
 
-.skills{
-
-    background-color: blue;
+.tc-skillSection div {
 
     display: flex;
 
-    border-radius: 11px;
-
-    width: max-content;
-
-    padding: 4px;
-
-}
-
-.row div, button{
-
-    display: inline-flex;
-
-      float: right;
-
-
-
-
-} */
-
-.tc-skillSection{
-
-    padding: 50px;
-
-}
-
-.tc-skillSection div{
-
-    display: flex;
-
-    gap:20px;
+    /* gap: 20px; */
 
     flex-wrap: wrap;
 
@@ -58,80 +25,131 @@
 
 }
 
-.skill{
+.skill {
 
     background-color: #81B1E533;
 
     width: max-content;
-
+    height: max-content;
     border-radius: 16px;
 
-    padding: 5px;
-    color:#004B84CC
-
+    padding: 3px;
+    color: #004B84CC
 }
 
-.skills{
+.skills {
     padding-bottom: 20px;
-
     border-bottom: 1px solid #E9E9E9;
+    gap:20px
 
 }
 
-.floatright{
-
-    justify-content: flex-end;
-
+.floatright,
+.floatright1 {
+    justify-content: space-between;
     display: flex;
-
-    width: 90%;
-
+    width: max-content;
+    gap:10px
 }
 
-.floatright div{
-
+.floatright div,
+.floatright1 div {
     position: relative;
-
     padding-left: 20px;
-
-
-
-
 }
 
-.floatright div::before{
-
- position: absolute;
-
- content: '';
-
- width:10px;
-
-height: 10px;
-
-top: 7px;
-
-left: 0;
-
-background-color: red;
-
-
-
-
+.floatright div::before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 0;
+    background-color: red;
 }
 
-button{
-    background-color: #81B1E533;
+.floatright1 div::before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 0;
+    background-color: red;
+}
+
+button {
+    border: none;
+    background-color: #fff;
+}
+
+.floatright>span,
+.floatright1>span {
+    /* background-color: #fff; */
     color: #004B84CC;
     border: none;
     height: max-content;
     border-radius: 15px;
+    width: max-content;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.08);
 }
-p{
-    margin-top: 0;
+
+p {
+    margin-top: -7px;
     margin-bottom: 1rem;
     font-family: Outfit;
     font-size: 26px;
     font-weight: 500;
     color: #295051;
 }
+
+.floatright div:nth-child(1)::before {
+    background-color: #2E6C9C;
+}
+
+.floatright div:nth-child(2)::before {
+    background-color: #7F7E7E;
+}
+
+.floatright div:nth-child(3)::before {
+    background-color: #C84051;
+}
+
+.floatright1 div:nth-child(1)::before {
+    background-color: #95C11E;
+}
+
+.floatright1 div:nth-child(2)::before {
+    border: 1px solid var(--green, #95C11E);
+}
+
+.floatright1 div:nth-child(3)::before {
+    background-color: #7F7E7E;
+}
+
+.passion {
+    background-color: RGBA(149, 193, 30, 0.16);
+    color: #7EAD00;
+    border-radius: 16PX;
+}
+
+.row1 {
+    justify-content: space-between;
+    margin-top: 15px
+}
+
+@media (max-width: 768px) {
+    /* .floatright1{
+       position: absolute;
+       margin-top: 190px;
+    }
+    .floatright{
+        position: absolute;
+        margin-top: 230px;
+     }
+     .row1 {
+        margin-top:50px
+     } */
+  }
