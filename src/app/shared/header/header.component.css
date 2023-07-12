@@ -26,7 +26,7 @@ line-height: normal;
 }
 .text2{
     color: var(--medium-grey, #7F7F80);
-    
+    margin-left: 10%;
     font-family:Outfit;
     font-size: 15px;
     font-weight: 200;

@@ -1,0 +1,137 @@
+/* .skillset{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.skills{
+
+    background-color: blue;
+
+    display: flex;
+
+    border-radius: 11px;
+
+    width: max-content;
+
+    padding: 4px;
+
+}
+
+.row div, button{
+
+    display: inline-flex;
+
+      float: right;
+
+
+
+
+} */
+
+.tc-skillSection{
+
+    padding: 50px;
+
+}
+
+.tc-skillSection div{
+
+    display: flex;
+
+    gap:20px;
+
+    flex-wrap: wrap;
+
+
+
+
+    /* flex-direction: column; */
+
+
+
+
+}
+
+.skill{
+
+    background-color: #81B1E533;
+
+    width: max-content;
+
+    border-radius: 16px;
+
+    padding: 5px;
+    color:#004B84CC
+
+}
+
+.skills{
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #E9E9E9;
+
+}
+
+.floatright{
+
+    justify-content: flex-end;
+
+    display: flex;
+
+    width: 90%;
+
+}
+
+.floatright div{
+
+    position: relative;
+
+    padding-left: 20px;
+
+
+
+
+}
+
+.floatright div::before{
+
+ position: absolute;
+
+ content: '';
+
+ width:10px;
+
+height: 10px;
+
+top: 7px;
+
+left: 0;
+
+background-color: red;
+
+
+
+
+}
+
+button{
+    background-color: #81B1E533;
+    color: #004B84CC;
+    border: none;
+    height: max-content;
+    border-radius: 15px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: Outfit;
+    font-size: 26px;
+    font-weight: 500;
+    color: #295051;
+}

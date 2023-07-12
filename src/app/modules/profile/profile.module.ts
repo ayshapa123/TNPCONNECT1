@@ -6,6 +6,8 @@ import { ProfileComponent } from './profile.component';
 import { CommunityComponent } from './community/community.component';
 import { PersonalinfoComponent } from './personalinfo/personalinfo.component';
 import { SkillsComponent } from './skills/skills.component';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -17,7 +19,8 @@ import { SkillsComponent } from './skills/skills.component';
   ],
   imports: [
     CommonModule,
-    ProfileRoutingModule
+    ProfileRoutingModule,
+    FormsModule
   ]
 })
 export class ProfileModule { }

@@ -11,23 +11,27 @@ app-community{
    background-color: #FFF;
    margin-left:9%;
    margin-top: 7%;
-   width: 18%;
+   width: 26%;
    height: fit-content;
    border-radius: 5%  
 }
 app-personalinfo{
      /* height: 500px; */
-     background-color: aquamarine;
+     background-color: #fff;
      /* margin-left:6% ; */
      /* margin-top:7%; */
+     border-radius: 16px  
+
 
     
     }
 app-skills{
-    background-color: red;
+    background-color: #FFF;
     /* margin-left:6% ; */
     /* height: 500px; */
     margin-top:3%;
+    border-radius: 16px  
+
 }
 .ps{
     display: flex;
