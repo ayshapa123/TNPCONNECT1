@@ -8,21 +8,8 @@
 }
 
 .tc-skillSection div {
-
     display: flex;
-
-    /* gap: 20px; */
-
     flex-wrap: wrap;
-
-
-
-
-    /* flex-direction: column; */
-
-
-
-
 }
 
 .skill {
@@ -40,22 +27,26 @@
 .skills {
     padding-bottom: 20px;
     border-bottom: 1px solid #E9E9E9;
-    gap:20px
+    gap:20px;
 
 }
 
-.floatright,
-.floatright1 {
-    justify-content: space-between;
+.row1>.floatright {
+    
+    
     display: flex;
+    justify-content: space-between;
+    
     width: max-content;
-    gap:10px
+    gap:10px;
+   
 }
 
-.floatright div,
-.floatright1 div {
+.floatright div ,.floatright1 div{
     position: relative;
     padding-left: 20px;
+    
+   
 }
 
 .floatright div::before {
@@ -68,7 +59,7 @@
     background-color: red;
 }
 
-.floatright1 div::before {
+.floatright1>div::before {
     position: absolute;
     content: '';
     width: 10px;
@@ -139,17 +130,18 @@ p {
     justify-content: space-between;
     margin-top: 15px
 }
-
-@media (max-width: 768px) {
-    /* .floatright1{
-       position: absolute;
-       margin-top: 190px;
-    }
-    .floatright{
-        position: absolute;
-        margin-top: 230px;
-     }
-     .row1 {
-        margin-top:50px
-     } */
+.floatright1>div{
+    display: none
+}
+@media (max-width: 500px) {
+  .floatright div{
+    display: none;
+    
+  }
+  .floatright1>div{
+    display: flex;
+  }
+  .row1{
+    /* margin-bottom: ; */
+  }
   }

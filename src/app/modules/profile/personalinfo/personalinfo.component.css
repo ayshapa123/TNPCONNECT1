@@ -14,13 +14,13 @@
 
 
 
-.row{
+.myrow{
 
     display: flex;
 
     justify-content: space-between;
 
-   
+   flex-wrap: wrap;
 
 }
 
@@ -40,7 +40,7 @@
 
 }
 
-.col{
+.mycol{
 
     margin-bottom: 20px;
 
@@ -54,7 +54,7 @@
 
 }
 
-.col::before{
+.mycol::before{
 
     content: '';
 
