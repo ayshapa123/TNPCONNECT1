@@ -1,26 +1,35 @@
 * {
     font-family: Outfit;
 }
-
-.tc-skillSection {
-    padding: 35px;
-
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.tc-skillSection{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.tc-skillSection1{
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 
-.tc-skillSection div {
+.tc-skillSection,.tc-skillSection1 {
+    padding: 10px 35px;
+        background-color: #fff;       
+}
+
+.tc-skillSection div,.tc-skillSection1 div {
     display: flex;
     flex-wrap: wrap;
 }
 
 .skill {
-
     background-color: #81B1E533;
-
     width: max-content;
     height: max-content;
     border-radius: 16px;
-
-    padding: 3px;
+    padding: 5px;
     color: #004B84CC
 }
 
@@ -30,23 +39,22 @@
     gap:20px;
 
 }
+.skill span{
+    margin-left:10px
 
-.row1>.floatright {
-    
-    
+}
+
+.row1>.floatright {    
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
+    margin-bottom: 11px;
     width: max-content;
-    gap:10px;
-   
+    gap:10px; 
 }
 
 .floatright div ,.floatright1 div{
     position: relative;
-    padding-left: 20px;
-    
-   
+    padding-left: 20px;  
 }
 
 .floatright div::before {
@@ -124,6 +132,7 @@ p {
     background-color: RGBA(149, 193, 30, 0.16);
     color: #7EAD00;
     border-radius: 16PX;
+    padding: 5px;
 }
 
 .row1 {
@@ -133,7 +142,7 @@ p {
 .floatright1>div{
     display: none
 }
-@media (max-width: 500px) {
+@media (max-width: 780px) {
   .floatright div{
     display: none;
     
@@ -141,7 +150,10 @@ p {
   .floatright1>div{
     display: flex;
   }
-  .row1{
-    /* margin-bottom: ; */
-  }
+  .main{
+    gap: 19px;
+}
+.tc-skillSection,.tc-skillSection1 {
+        border-radius: 16px;
+}
   }

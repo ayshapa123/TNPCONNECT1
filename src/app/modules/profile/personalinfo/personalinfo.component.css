@@ -1,80 +1,42 @@
 *{
-
     font-family: Outfit;
-
 }
-
 .section{
-
     padding: 20px 20px 0px 63px;
-
 }
 
-
-
-
-
-.myrow{
-
+.row{
     display: flex;
-
     justify-content: space-between;
-
    flex-wrap: wrap;
-
 }
-
 .data1{
-
     line-height: 24px;
-    font-size: 18px;
-    
-
+    font-size: 18px;  
 }
 .data2{
-
     line-height: 24px;
     font-size: 18px;
     color:#7F7F80;
-    
-
 }
 
-.mycol{
-
+.col{
     margin-bottom: 20px;
-
     display: flex;
-
     flex-direction: column;
-
     position: relative;
-
     padding-left: 60px;
-
 }
 
-.mycol::before{
-
+.col::before{
     content: '';
-
     top: 0;
-
     left: 0;
-
     width: 43px;
-
-    height: 100%;
-
+    height:43px;
     background-color: rgba(41, 80, 81, 0.05);;
-
     position: absolute;
-
     border-radius: 10px;
-
-
-
-
 }
 p{
     color: var(--dark-green, #295051);
@@ -92,7 +54,4 @@ i{
     margin-top: 12px;
     display: flex;
     align-items: center;
-
-
-
 }

@@ -1,7 +1,8 @@
+<div class="main">
 <div class="tc-skillSection">
     <div class="row1">
         <p>Skills</p>
-        <div class="floatright" >
+        <div class="floatright">
             <div>Interested developing skill</div>
             <div>Indifferent</div>
             <div>not Interested developing skill</div>
@@ -11,21 +12,50 @@
             </span>
         </div>
     </div>
-    
+
     <div class="skills">
-        <div class="skill"  *ngFor="let i of skillset, index as j">{{i}}
+        <div class="skill" *ngFor="let i of skillset, index as j">{{i}}
             <div (click)="removeskill(j)">
-                <span>5
+                <span>5 
                     <i class="fa-solid fa-star"></i>
                 </span>
             </div>
         </div>
     </div>
-    <div class="floatright1" >
+    <div class="floatright1">
         <div>Interested developing skill</div>
         <div>Indifferent</div>
         <div>not Interested developing skill</div>
     </div>
+    <!-- passion -->
+    <!-- <div class="row1">
+        <p>Passions</p>
+        <div class="floatright">
+            <div>Highly Interested</div>
+            <div>Moderately Intersted</div>
+            <div>Slightly intersted</div>
+            <span>
+                <i class="fa-solid fa-circle-plus"></i>
+                <button class="addSkill" (click)="newlabel()">Add Passion</button>
+            </span>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="passion" *ngFor="let i of passion, index as j">{{i}}
+            <span>5
+                <i class="fa-solid fa-star"></i>
+            </span>
+        </div>
+    </div>
+    <div class="floatright1">
+        <div>Highly Interested</div>
+        <div>Moderately Intersted</div>
+        <div>Slightly intersted</div>
+    </div> -->
+</div>
+
+<!-- new -->
+<div class="tc-skillSection1">
     <div class="row1">
         <p>Passions</p>
         <div class="floatright">
@@ -50,6 +80,5 @@
         <div>Moderately Intersted</div>
         <div>Slightly intersted</div>
     </div>
-
-
+</div>
 </div>
