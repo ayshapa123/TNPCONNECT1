@@ -1,6 +1,124 @@
 .communitymain{
-    
-   
-    /* padding-inline:6%; */
+    /* border: 1px solid black; */
+    width:10%;
+    height:auto;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.first{
+    border: none;
+    border-bottom: #7F7F80 1px solid;
+    margin-top: 6%;
     
 }
+.img1{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 30px;
+    /* width: 100px; */
+    /* aspect-ratio: 1; */
+    /* background-color: rgb(236, 184, 15); */
+    /* display: grid; */
+    /* place-items: center; */
+    /* overflow: hidden; */
+    
+}
+.name_place{
+    gap:4%;
+    /* border: 1px solid black; */
+    /* padding-top:0% ; */
+    height: fit-content;
+    width: fit-content;
+    /* flex-direction: column; */
+/* align-items: center; */
+}
+.name_place p {
+    margin: 0; /* Remove any default margin */
+  }
+.name{
+    color: #1A1A1A;
+
+font-family: Open Sans;
+font-size: 9px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.place{
+    color: var(--medium-grey, #7F7F80);
+
+font-family: Open Sans;
+font-size: 8px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.line {
+    /* margin: 0; */
+    border: none;
+    border-top: 1px solid black;
+    /* height: 20px; */
+    /* width: 5%; */
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .head{
+    color: var(--medium-grey, #7F7F80);
+
+font-family: Open Sans;
+font-size: 9px;
+font-style: normal;
+font-weight: 700;
+/* line-height: normal; */
+text-transform: uppercase;
+padding-left: 10%;
+  }
+  .community2{
+    padding-left: 10%;
+  }
+
+  .round{
+    
+    height: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    /* background-color: rgb(236, 184, 15); */
+    display: grid;
+    place-items: center;
+    border: 1px solid;
+    border-color: #5b5a5a;
+  }
+  .communityname{
+    color: #1A1A1A;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Open Sans;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .description{
+    color: #7F7F80;
+    overflow: hidden;
+    leading-trim: both;
+    text-edge: cap;
+    text-overflow: ellipsis;
+    font-family: Outfit;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .join{
+    color: var(--green, #95C11E);
+leading-trim: both;
+text-edge: cap;
+font-family: Outfit;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+justify-content: end;
+text-align: right;
+  }

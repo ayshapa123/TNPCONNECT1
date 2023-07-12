@@ -1,4 +1,28 @@
-<div class="communitymain"><p>community works!</p></div>
+<div class="communitymain d-flex">
+    <div>
+        <img src="../../../assets/Rectangle 9.png">
+    </div>
+    <div class="name_place ms-2">
+        <p class="name">DianeDavis</p>
+        <p class="place">Kochi</p>
 
+    </div>
+</div>
 
+    <hr class="line">
+    <div class="">
+        <h6 class="head">YOUR COMMUNITIES</h6>
 
+        <div class="d-flex community2 mt-2"*ngFor="let i of community">
+             <div class="round">
+             </div>
+             <div class="container" >
+                <div class="communityname">{{i.name}}</div>
+                <div class="description">{{i.description}}</div>
+             </div>
+        </div>
+    
+    </div>
+    <div >
+        <p class="join">Join communities +</p>
+    </div>
