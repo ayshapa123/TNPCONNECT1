@@ -1,77 +1,48 @@
 <div class="tc-skillSection">
-
     <div class="row1">
-
-        <p>Skill</p>
-
+        <p>Skills</p>
         <div class="floatright">
-
             <div>Interested developing skill</div>
-
             <div>Indifferent</div>
-
             <div>not Interested developing skill</div>
-
-            <button class="addSkill" (click)="newlabel()">Add new Skill</button>
-
+            <span>
+                <i class="fa-solid fa-circle-plus"></i>
+                <button class="addSkill" (click)="newlabel()">Add Skill</button>
+            </span>
         </div>
-
-       
-
     </div>
-
-   
-
     <div *ngIf="newlabel1">
-
         <input type="text" name="newskill" [(ngModel)]="newskill" id="firstname1">
-
         <button (click)="addSkill()">add</button>
-
     </div>
-
     <div class="skills">
-
-
-
-
-        <div class="skill" *ngFor="let i of skillset, index as j">{{i}}
-
+        <div class="skill"  *ngFor="let i of skillset, index as j">{{i}}
             <div (click)="removeskill(j)">
-
-                <i class="fas fa-times"></i>
-
-
-
-
+                <span>5
+                    <i class="fa-solid fa-star"></i>
+                </span>
             </div>
-
         </div>
-
-
-
-
-
     </div>
-
     <div class="row1">
-
-        <p>Passion</p>
-
+        <p>Passions</p>
         <div class="floatright">
-
-            <div>Interested developing skill</div>
-
-            <div>Indifferent</div>
-
-            <div>not Interested developing skill</div>
-
-            <button class="addSkill" (click)="newlabel()">Add new Skill</button>
-
+            <div>Highly Interested</div>
+            <div>Moderately Intersted</div>
+            <div>Slightly intersted</div>
+            <span>
+                <i class="fa-solid fa-circle-plus"></i>
+                <button class="addSkill" (click)="newlabel()">Add Passion</button>
+            </span>
         </div>
-
-       
-
     </div>
+    <div class="skills">
+        <div class="passion" *ngFor="let i of passion, index as j">{{i}}
+            <span>5
+                <i class="fa-solid fa-star"></i>
+            </span>
+        </div>
+    </div>
+
 
 </div>
