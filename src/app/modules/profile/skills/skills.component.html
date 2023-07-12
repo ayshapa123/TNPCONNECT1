@@ -1,0 +1,38 @@
+<div class="tc-skillSection">
+    <div class="row1">
+        <p>Skill</p>
+        <div class="floatright">
+            <div>Interested developing skill</div>
+            <div>Indifferent</div>
+            <div>not Interested developing skill</div>
+            <button class="addSkill" (click)="newlabel()">Add new Skill</button>
+        </div>
+       
+    </div>
+   
+    <div *ngIf="newlabel1">
+        <input type="text" name="newskill" [(ngModel)]="newskill" id="firstname1">
+        <button (click)="addSkill()">add</button>
+    </div>
+    <div class="skills">
+
+        <div class="skill" *ngFor="let i of skillset, index as j">{{i}}
+            <div (click)="removeskill(j)">
+                <i class="fas fa-times"></i>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row1">
+        <p>Passion</p>
+        <div class="floatright">
+            <div>Interested developing skill</div>
+            <div>Indifferent</div>
+            <div>not Interested developing skill</div>
+            <button class="addSkill" (click)="newlabel()">Add new Skill</button>
+        </div>
+       
+    </div>
+</div>

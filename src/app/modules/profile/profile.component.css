@@ -1,0 +1,39 @@
+.main{
+    background:linear-gradient(0deg, rgba(79, 167, 172, 0.06) 0%, rgba(79, 167, 172, 0.06) 100%), #FFF;
+    width: 100%;
+    height: 100vh;
+    gap: 1%;
+}
+
+app-community{
+
+   background-color: aqua;
+   margin-left:9%;
+   margin-top: 7%;
+   width: 13%;
+   
+   
+}
+app-personalinfo{
+     /* height: 500px; */
+     background-color: #FFFFFF;
+     border-radius: 15px;
+     /* border:1px solid black */
+     /* margin-left:6% ; */
+     /* margin-top:7%; */
+
+    
+    }
+app-skills{
+    background-color: #FFFFFF;
+     border-radius: 15px;
+    margin-top:3%;
+}
+.ps{
+    display: flex;
+    flex-direction: column;
+    width:65%;
+    margin-top:7%
+    /* background-color: rgb(221, 158, 158); */
+    /* border: 1px solid red; */
+}

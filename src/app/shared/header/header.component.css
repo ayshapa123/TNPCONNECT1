@@ -1,0 +1,76 @@
+/* header{
+    border:1px solid black;
+} */
+.head{
+    width: 41%;
+    display: flex;
+    
+    background-color: #FFFFFF;
+    margin-left: 3%;
+    padding-inline:6%;
+}
+.img{   
+width: 2%;
+height:2%;
+margin-top: 2%; 
+}
+.text{   
+font-weight: 700;
+line-height: normal;
+}
+.text1{
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    font-size: 20px;
+}
+.text2{
+    color: var(--medium-grey, #7F7F80);
+    
+    font-family:Outfit;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.search{
+    margin-top: 1%;
+    background-color:  rgba(22, 214, 220, 0.05);
+    border-radius: 20px;
+    border:none;
+    width: 20%;
+    height: fit-content;
+
+}
+.icon{
+    padding-left: 4%;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+  background-size: 5%;
+      height:80%;
+        width:70%;
+        background-color: #e7e3e3;
+    }
+    input::placeholder {
+        font-size: 12px; 
+      }
+.box{
+    justify-content: center;
+    margin-top: 2%;
+    width: 41%;
+    padding-inline:6%;
+    width: 69%;
+    padding-inline: 15%;
+}
+.notification_bell{
+     display: flex;
+    align-items: center;
+
+    
+}
+/* @media only screen and (max-width: 600px) {
+    .head{
+        width: 250px;
+        background-color: aqua;
+    }
+    
+} */

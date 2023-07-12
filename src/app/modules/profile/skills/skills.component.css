@@ -1,0 +1,63 @@
+/* .skillset{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.skills{
+    background-color: blue;
+    display: flex;
+    border-radius: 11px;
+    width: max-content;
+    padding: 4px;
+}
+.row div, button{
+    display: inline-flex;
+      float: right;
+
+} */
+.tc-skillSection{
+    padding: 50px;
+}
+.tc-skillSection div{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+
+    /* flex-direction: column; */
+
+}
+.skill{
+    background-color: aqua;
+    width: max-content;
+    border-radius: 5px;
+    padding: 5px;
+}
+.skills{
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.floatright{
+    justify-content: flex-end;
+    display: flex;
+    width: 90%;
+}
+.floatright div{
+    position: relative;
+    padding-left: 20px;
+
+}
+.floatright div::before{
+ position: absolute;
+ content: '';
+ width:10px;
+height: 10px;
+top: 7px;
+left: 0;
+background-color: red;
+
+}
+button{
+    border: none;
+    height: max-content;
+    border-radius: 15px;
+}

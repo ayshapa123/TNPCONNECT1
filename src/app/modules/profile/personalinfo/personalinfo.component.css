@@ -1,0 +1,43 @@
+
+*{
+    font-family: Outfit;
+}
+.section{
+    padding: 20px 20px 0px 63px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.data1{
+    line-height: 15px;
+}
+.col{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 60px;
+}
+.col::before{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    background-color: #E7E6E7;
+    position: absolute;
+    border-radius: 5px;
+
+}
+i{
+    font-size: 23px;
+    margin-left: -55px;
+    z-index: 2;
+    position: absolute;
+    margin-top: 3px;
+
+}
