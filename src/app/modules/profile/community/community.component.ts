@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class CommunityComponent {
   m:any="more";
  community:any=[{
-  "name":"SoulDEVS",
+  "name":"SoulDEVS HJKIJIJIM",
   "description":"The lost souls of developers 👻"
  },
  {
