@@ -7,6 +7,19 @@
   border-bottom: 1px solid #E9E9E9;
   padding-bottom: 11%;
 }
+.round1{
+
+  height: 67px;
+    aspect-ratio: 1;
+    border-radius: 46%;
+    display: grid;
+    place-items: center;
+    /* border: 1px solid; */
+    border-color: #5b5a5a;
+    background-size: cover;
+    background-repeat: no-repeat;
+  /* background-image: url(../../../assets/Rectangle 9.png); */
+}
 
 .first {
   border: none;
@@ -98,7 +111,7 @@
   /* background-color: rgb(236, 184, 15); */
   display: grid;
   place-items: center;
-  border: 1px solid;
+  /* border: 1px solid; */
   border-color: #5b5a5a;
   background-size:cover ;
   background-repeat: no-repeat;
@@ -136,8 +149,9 @@
   font-weight: 300;
   line-height: normal;
   margin: 0%;
-  width: 250px;  
-    white-space: nowrap;
+  width: 250px; 
+  padding-right: 13%; 
+    white-space:nowrap;
     overflow: hidden;
     text-overflow:ellipsis;
 }
