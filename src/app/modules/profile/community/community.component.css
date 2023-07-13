@@ -9,7 +9,7 @@
 }
 .round1{
 
-  height: 67px;
+  height: 62px;
     aspect-ratio: 1;
     border-radius: 46%;
     display: grid;
@@ -105,7 +105,7 @@
 
 .round {
 
-  height: 46px;
+  height: 44px;
   aspect-ratio: 1;
   border-radius: 50%;
   /* background-color: rgb(236, 184, 15); */
@@ -149,8 +149,8 @@
   font-weight: 300;
   line-height: normal;
   margin: 0%;
-  width: 250px; 
-  padding-right: 13%; 
+  width: 89%; 
+  /* padding-right: 13%;  */
     white-space:nowrap;
     overflow: hidden;
     text-overflow:ellipsis;

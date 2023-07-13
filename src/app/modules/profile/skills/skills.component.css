@@ -30,7 +30,9 @@
     height: max-content;
     border-radius: 16px;
     padding: 5px;
-    color: #004B84CC
+    color: #004B84CC;
+    padding-left:15px;
+    padding-right: 15px;
 }
 
 .skills {
@@ -133,6 +135,8 @@ p {
     color: #7EAD00;
     border-radius: 16PX;
     padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .row1 {
@@ -146,6 +150,10 @@ p {
   .floatright div{
     display: none;
     
+  }
+
+  .floatright1{
+    justify-content: center;
   }
   .floatright1>div{
     display: flex;

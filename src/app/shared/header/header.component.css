@@ -1,13 +1,37 @@
-/* header{
-    border:1px solid black;
-} */
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+    
+    height: 86px;
+}
 .head{
     width: 41%;
     display: flex;
-    
-    background-color: #FFFFFF;
-    margin-left: 3%;
+    /* border: 1px solid black; */
+    /* margin-left: 1%; */
+    padding-top: 1%;
+    padding-left: 0%;
     padding-inline:6%;
+    justify-content:space-evenly;
+    /* white-space: nowrap; */
+    margin-left: 3%;
+    /* position: relative; */
+}
+
+.imagediv{
+    /* position: fixed; */
+    height: 28px;
+    aspect-ratio: 1;
+    /* border-radius: 46%; */
+    display: grid;
+    place-items: center;
+    /* border: 1px solid; */
+    /* border-color: #5b5a5a; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.symbol{
+
 }
 .img{   
 width: 2%;
@@ -17,18 +41,31 @@ margin-top: 2%;
 .text{   
 font-weight: 700;
 line-height: normal;
+padding-top: 1%;
+padding-inline: 6%;
+justify-content:space-between;
 }
 .text1{
     font-weight: 700;
     line-height: normal;
     letter-spacing: 4.8px;
-    font-size: 20px;
+    font-size: 24px;
+    margin-left: 0%
 }
 .text2{
     color: var(--medium-grey, #7F7F80);
-    margin-left: 10%;
+    margin-left: 7%;
     font-family:Outfit;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: normal;
+    height: 0%;
+}
+.text3{
+    color: var(--medium-grey, #7F7F80);
+    margin-left: 29%;
+    font-family:Outfit;
+    font-size: 20px;
     font-weight: 200;
     line-height: normal;
 }
@@ -36,30 +73,46 @@ line-height: normal;
 .search{
     margin-top: 1%;
     background-color:  rgba(22, 214, 220, 0.05);
-    border-radius: 20px;
+    border-radius: 24px;
     border:none;
     width: 20%;
     height: fit-content;
 
 }
 .icon{
-    padding-left: 4%;
+    /* padding-left: 4%;
   background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
   background-size: 5%;
-      height:80%;
-        width:70%;
-        background-color: #e7e3e3;
+      height:75%;
+        width:51%;
+        background: rgba(41, 80, 81, 0.05); */
+    padding-left: 9%;
+    background: url(https://static.thenounproject.com/png/101791-200.png) no-repeat left;
+    background-size: 5%;
+    height: 72%;
+    width: 74%;
+    background: rgba(41, 80, 81, 0.05);
     }
     input::placeholder {
-        font-size: 12px; 
+        color: #7F7F80;
+       
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
       }
 .box{
-    justify-content: center;
-    margin-top: 2%;
-    width: 41%;
-    padding-inline:6%;
-    width: 69%;
-    padding-inline: 15%;
+    width: 38%;
+    /* padding-inline: 15%; */
+    margin-bottom: 4%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    height: 82%;
+    /* border: 1px solid black; */
+    margin-left: 11%;
+    
+
 }
 .notification_bell{
      display: flex;
@@ -67,10 +120,28 @@ line-height: normal;
 
     
 }
+
+i{
+font-size: 24px;
+}
+.imagediv1{
+    /* position: fixed; */
+    width: 48px;
+    height: 48px;
+    aspect-ratio: 1;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    /* border: 1px solid; */
+    /* border-color: #5b5a5a; */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 /* @media only screen and (max-width: 600px) {
-    .head{
-        width: 250px;
-        background-color: aqua;
+    .imgdiv{
+        position: static;
+
     }
     
 } */

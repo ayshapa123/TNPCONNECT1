@@ -3,27 +3,37 @@
     width: 100%;
     height: 100vh;
     gap: 1%;
+    /* padding-top: 0%; */
+    /* border: 1px solid; */
     /* border: 1px solid; */
     /* flex-direction: column; */
+}
+.backtohome{
+  border: 1px solid black;
+  background-color: #fff;
+  /* margin-left:9%; */
+  height: fit-content;
+
 }
 
 app-community{
    background-color: #FFF;
    margin-left:9%;
-   margin-top: 7%;
-   /* width: 20%; */
+   margin-top: 5%;
+   width: 20%;
+   /* width: 392px; */
+/* height: 591px; */
+flex-shrink: 0;
    height: fit-content;
-   border-radius: 5%  
+   border-radius: 16px  
 }
 app-personalinfo{
      height: fit content;
      background-color: #fff;
      /* margin-left:6% ; */
      /* margin-top:7%; */
-     border-radius: 16px  
-
-
-    
+     border-radius: 16px  ;
+     height:fit-content;
     }
 app-skills{
     /* background-color: #FFF; */
@@ -37,7 +47,7 @@ app-skills{
     display: flex;
     flex-direction: column;
     width:65%;
-    margin-top:7%
+    margin-top:5%
     /* background-color: rgb(221, 158, 158); */
     /* border: 1px solid red; */
 }
@@ -55,6 +65,7 @@ app-skills{
         margin-left: 9%;
         margin-top: 2%;
         width: 78%;
+
     }
   }
  
@@ -75,6 +86,13 @@ app-skills{
         width: 70%;
     }
    
+  }
+  *{
+    /* height: 100%;
+    display: block; */
+    /* overscroll-X: none; */
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
   }
   
   

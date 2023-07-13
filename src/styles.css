@@ -7,3 +7,6 @@
     --maincolor:rgb(83, 230, 83);
     --circe:50%;
 }
+body{
+    zoom: 90%;
+}
