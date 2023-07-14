@@ -68,8 +68,38 @@ app-skills{
 
     }
   }
- 
-  @media only screen and (max-width: 1300px) and (min-width: 1062px){
+  @media (min-width: 576px){
+    app-skills,app-personalinfo{
+      width: 97%;
+    }
+    /* app-community{
+      width: 26%;
+  } */
+
+  }
+
+  /* @media (min-width: 576px){
+    app-skills,app-personalinfo{
+      width: 97%;
+    }
+    app-community{
+      width: 26%;
+  }
+
+  } */
+  /* @media (min-width: 768px){
+    app-skills,app-personalinfo{
+      width: 90%;
+  }
+  }
+  @media (min-width: 992px){
+    app-skills,app-personalinfo{
+      width: 70%;
+  }
+  } */
+
+
+  /* @media only screen and (max-width: 1300px) and (min-width: 1062px){
     app-skills,app-personalinfo{
         width: 97%;
     }
@@ -86,7 +116,7 @@ app-skills{
         width: 70%;
     }
    
-  }
+  } */
   *{
     /* height: 100%;
     display: block; */
