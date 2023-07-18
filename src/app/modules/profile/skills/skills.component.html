@@ -13,15 +13,37 @@
         </div>
     </div>
 
-    <div class="skills">
-        <div class="skill" *ngFor="let i of skillset, index as j">{{i}}
-            <div (click)="removeskill(j)">
+    <!-- <div class="skills">
+        <div  *ngFor="let i of skillset"> 
+            <div class="skill" *ngIf="this.skillset.allskill || i < maxToShow">
+               {{i}}
+            
+            <div (click)="removeskill(i)">
                 <span>5 
                     <i class="fa-solid fa-star"></i>
                 </span>
             </div>
         </div>
     </div>
+        <div class="skill">
+            <a (click)="view()">{{ viewSkill ? 'View less' : 'View more' }}</a> 
+        </div>
+    </div> -->
+    <div class="skills">
+        <div  class="skill"*ngFor="let i of skillset.slice(0, viewMore ? skillset.length : maxToShow); let j = index">
+          <!-- <div class="skill" *ngIf="skillset.j || j < maxToShow">  -->
+            {{ i }}
+            <div (click)="removeskill(j)">
+              <span>5 <i class="fa-solid fa-star"></i></span>
+            </div>
+            <!-- </div> -->
+        </div>
+        <div class="skill">
+            <a (click)="toggleView()">{{ viewMore ? 'View less' : 'View ' }}<span *ngIf="!viewMore"> ({{ getRemainingItemCount() }} more)</span>
+            </a> 
+          </div>
+      </div>
+
     <div class="floatright1">
         <div>Interested developing skill</div>
         <div>Indifferent</div>
@@ -69,10 +91,13 @@
         </div>
     </div>
     <div class="skills1">
-        <div class="passion" *ngFor="let i of passion, index as j">{{i}}
+        <div class="passion" *ngFor="let i of passion.slice(0, viewPMore ? passion.length : maxTopassion); index as j">{{i}}
             <span>5
                 <i class="fa-solid fa-star"></i>
             </span>
+        </div>
+        <div class="passion">
+            <a (click)="toggleP()">{{ viewPMore ? 'View less' : 'View more' }}</a>
         </div>
     </div>
     <div class="floatright1">

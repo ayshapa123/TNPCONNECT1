@@ -53,7 +53,7 @@ p{
     font-size: 26px;
     padding-left: 4%;
     padding-top: 2%;
-    font-weight: 600;
+    font-weight: 0;
 }
 i{
     color:#9BA9AA;
@@ -65,3 +65,4 @@ i{
     display: flex;
     align-items: center;
 }
+

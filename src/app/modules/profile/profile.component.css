@@ -1,8 +1,8 @@
 .main{
     background:linear-gradient(0deg, rgba(79, 167, 172, 0.06) 0%, rgba(79, 167, 172, 0.06) 100%), #FFF;
     width: 100%;
-    height: 100vh;
-    gap: 1%;
+    height: 900px;
+    gap: 2%;
     /* padding-top: 0%; */
     /* border: 1px solid; */
     /* border: 1px solid; */
@@ -13,9 +13,13 @@
   background-color: #fff;
   /* margin-left:9%; */
   height: fit-content;
-
 }
-
+.skill{
+ 
+    margin-top: 13px; /* Set the desired margin between the elements */
+    padding-bottom: 5px; /* Set the desired padding between the elements */
+  
+}
 app-community{
   background-color: #FFF;
   margin-left: 9%;
@@ -68,15 +72,16 @@ app-skills{
 
     }
   }
-  @media (min-width: 576px){
+  /* @media (min-width: 576px){
     app-skills,app-personalinfo{
       width: 97%;
     }
+  } */
     /* app-community{
       width: 26%;
   } */
 
-  }
+  /* } */
 
   /* @media (min-width: 576px){
     app-skills,app-personalinfo{
@@ -99,7 +104,7 @@ app-skills{
   } */
 
 
-  /* @media only screen and (max-width: 1300px) and (min-width: 1062px){
+  @media only screen and (max-width: 1300px) and (min-width: 1062px){
     app-skills,app-personalinfo{
         width: 97%;
     }
@@ -108,15 +113,29 @@ app-skills{
   @media only screen and (max-width: 1061px) and (min-width: 896px){
     app-skills,app-personalinfo{
         width: 80%;
+        font-size: 1em;
     }
+  }
+    @media only screen and (max-width: 1061px) and (min-width: 896px){
+      .main{
+        height: 1000px;
+      }
+   
    
   }
+  @media only screen and (max-width: 896px) and (min-width:787px){
+    .main{
+      height: 1000px;
+    }
+}
   @media only screen and (max-width: 895px) and (min-width: 787px){
     app-skills,app-personalinfo{
         width: 70%;
+
+        
     }
    
-  } */
+  }
   *{
     /* height: 100%;
     display: block; */

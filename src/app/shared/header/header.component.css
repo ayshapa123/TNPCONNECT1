@@ -146,10 +146,10 @@ font-size: 24px;
     background-repeat: no-repeat;
 
 }
-/* @media only screen and (max-width: 600px) {
-    .imgdiv{
-        position: static;
+ @media only screen and (max-width: 1111px) {
+    header{
+        width:50%;
 
     }
     
-} */
+}
