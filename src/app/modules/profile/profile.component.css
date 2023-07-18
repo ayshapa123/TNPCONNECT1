@@ -50,7 +50,7 @@ app-skills{
 .ps{
     display: flex;
     flex-direction: column;
-    width:65%;
+    width:62%;
     margin-top:5%
     /* background-color: rgb(221, 158, 158); */
     /* border: 1px solid red; */
@@ -112,7 +112,7 @@ app-skills{
   }
   @media only screen and (max-width: 1061px) and (min-width: 896px){
     app-skills,app-personalinfo{
-        width: 80%;
+        /* width: 80%; */
         font-size: 1em;
     }
   }
@@ -130,7 +130,7 @@ app-skills{
 }
   @media only screen and (max-width: 895px) and (min-width: 787px){
     app-skills,app-personalinfo{
-        width: 70%;
+        /* width: 70%; */
 
         
     }

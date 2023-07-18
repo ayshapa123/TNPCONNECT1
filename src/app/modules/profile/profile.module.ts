@@ -7,6 +7,7 @@ import { CommunityComponent } from './community/community.component';
 import { PersonalinfoComponent } from './personalinfo/personalinfo.component';
 import { SkillsComponent } from './skills/skills.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -20,7 +21,13 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     ProfileRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ]
 })
-export class ProfileModule { }
+export class ProfileModule { 
+    constructor()
+    { }
+
+
+}

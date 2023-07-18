@@ -16,6 +16,8 @@
 .tc-skillSection1{
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
+    margin-bottom: 23%;
+
 }
 
 .tc-skillSection,.tc-skillSection1 {
@@ -161,6 +163,7 @@ p {
     display: none;
     
   }
+  
 
   .floatright1{
     justify-content: center;
@@ -173,5 +176,8 @@ p {
 }
 .tc-skillSection,.tc-skillSection1 {
         border-radius: 16px;
+}
+.skill{
+    display: grid;
 }
   }
