@@ -4,9 +4,35 @@
 } */
 
 :root{
-    --maincolor:rgb(83, 230, 83);
+    --maincolor:rgb(255, 255, 255);
     --circe:50%;
+    --sectionHeaderSize:26px;
+    --communityname:24px;
+    --sectionDescription:18px;
+    --communityDescritpion:16px;
+    --communityjoin:16px;
+    --intrest:14px;
 }
 /* body{
     zoom: %;
 } */
+
+@media (max-width:1280px) {
+   :root{
+    --sectionHeaderSize:18px;
+    --sectionDescription:15px;
+    --communityname:16px;
+    --communityDescritpion:13px;
+    --communityjoin:12px;
+    --intrest:11px;
+
+
+   } 
+}
+/* @media (max-width:550px) {
+    :root{
+     --sectionHeaderSize:15px;
+     --sectionDescription:12px;
+ 
+    } 
+ } */

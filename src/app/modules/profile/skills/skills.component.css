@@ -16,7 +16,7 @@
 .tc-skillSection1{
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    margin-bottom: 23%;
+    margin-bottom: 10%;
 
 }
 
@@ -28,6 +28,7 @@
 .tc-skillSection div,.tc-skillSection1 div {
     display: flex;
     flex-wrap: wrap;
+    font-size: var(--communityDescritpion);
 }
 
 .skill {
@@ -69,6 +70,7 @@
 .floatright div ,.floatright1 div{
     position: relative;
     padding-left: 20px;  
+    font-size: var(--intrest);
 }
 
 .floatright div::before {
@@ -113,7 +115,7 @@ p {
     margin-top: -7px;
     margin-bottom: 1rem;
     font-family: Outfit;
-    font-size: 26px;
+    font-size:var(--sectionHeaderSize);
     font-weight: 500;
     color: #295051;
 }
@@ -164,7 +166,10 @@ p {
     
   }
   
-
+  .floatright1{
+    border-top: 1px solid #E9E9E9;
+    /* margin-top: 1%; */
+}
   .floatright1{
     justify-content: center;
   }

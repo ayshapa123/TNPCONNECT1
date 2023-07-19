@@ -1,5 +1,5 @@
 header{
-    background: #FFF;
+    background: var(--maincolor);
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
     
     height: 86px;
@@ -11,10 +11,11 @@ header{
     /* margin-left: 1%; */
     padding-top: 1%;
     padding-left: 0%;
-    padding-inline:6%;
+    /* padding-inline:6%; */
     justify-content:space-evenly;
     /* white-space: nowrap; */
     margin-left: 3%;
+    align-items: center;
     /* overflow: hidden; */
     /* position: relative; */
 }
@@ -101,16 +102,17 @@ justify-content:space-between;
         color: #7F7F80;
         background: url(https://static.thenounproject.com/png/101791-200.png) no-repeat left; 
         background-size:6%;
-        /* background-position: -1%; */
-        background-position: left 1px bottom 21px;
-        
+        background-position: -1%;
+        /* background-position: left 1px bottom 21px; */
+        /* background-:var(--medium-grey, #7F7F80);font-weight: 500; */
         font-family: Open Sans;
-        font-size: 18px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         padding: 6%;
       }
+      
 .box{
     width: 38%;
     /* padding-inline: 15%; */
@@ -120,6 +122,7 @@ justify-content:space-between;
     height: 82%;
     /* border: 1px solid black; */
     margin-left: 11%;
+    align-items:center;
     
 
 }
@@ -147,20 +150,12 @@ font-size: 24px;
     background-repeat: no-repeat;
 
 }
- @media only screen and (max-width: 1111px)and(min-width:1090px) {
-    .imagediv{
+ @media (max-width: 852px){
+    input{
         width:12%;
         padding-left: 3%;
-
     }
     
 }
-@media only screen and (max-width: 1091px)and(min-width:825px) {
-    .imagediv{
-        width:9%;
-        padding-left: 3%;
 
-    }
-    
-}
 

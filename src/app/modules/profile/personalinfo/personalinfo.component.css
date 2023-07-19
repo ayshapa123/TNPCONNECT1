@@ -3,7 +3,7 @@
 }
 .section{
     /* padding: 20px 20px 0px 63px; */
-    padding: 0px 36px 9px 50px
+    padding: 0% 0% 2% 5% ;
 }
 
 .row{
@@ -13,11 +13,11 @@
 }
 .data1{
     line-height: 24px;
-    font-size: 18px;  
+    font-size: var(--sectionDescription);  
 }
 .data2{
     line-height: 24px;
-    font-size: 18px;
+    font-size: var(--sectionDescription);
     color:#7F7F80;
 }
 
@@ -50,7 +50,8 @@ main.p{
 }
 p{
     color: var(--dark-green, #295051);
-    font-size: 26px;
+  
+    font-size: var( --sectionHeaderSize);
     padding-left: 4%;
     padding-top: 2%;
     font-weight: 0;

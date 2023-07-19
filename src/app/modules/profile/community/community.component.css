@@ -60,7 +60,7 @@
   color: #1A1A1A;
 
   font-family: Open Sans;
-  font-size: 1.5em;
+  font-size:var(--communityname);
   font-style: normal;
   
   line-height: normal;
@@ -70,7 +70,7 @@
   color: var(--medium-grey, #7F7F80);
 
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: var(--communityDescritpion);
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -90,7 +90,7 @@
   color: var(--medium-grey, #7F7F80);
 
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: var(--communityDescritpion);
   font-style: normal;
   font-weight: 700;
   /* line-height: normal; */
@@ -133,7 +133,7 @@
 .communityname {
   color: #1A1A1A;
   font-family: Open Sans;
-  font-size: 18px;
+  font-size: var(--sectionDescription);
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -144,7 +144,7 @@
   /* overflow: hidden; */
   /* text-overflow: ellipsis; */
   font-family: Outfit;
-  font-size: 16px;
+  font-size: var(--communityDescritpion);
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -159,7 +159,7 @@
 .join {
   color: var(--green, #95C11E);
   font-family: Outfit;
-  font-size: 18px;
+  font-size: var(--communityjoin);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
