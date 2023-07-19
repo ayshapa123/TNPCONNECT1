@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {  } from '../profile.service';
 
 @Component({
   selector: 'app-skills',
@@ -6,19 +7,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
+
   newlabel1:boolean=false;
   newskill:any='';
   skillset : any=["abc", "absaf", "dgsg", "sgfh", "dfsh", "fdhh", "fdsh", "gsdah", "ytkyftt", "hyuui", "twsqaa"];
-
+ 
   passion:any=["Club Soccer Paris","CLub Motor Paris",'Club Raquettes Marseille','ghiwwaa','ydwdwks','jjsqwwo'];
   maxTopassion=3;
-  maxToShow = 8;
+  maxToShow = 5;
 
   displayedItems: string[]=[];
   viewMore = false;
   viewPMore=false;
-  constructor()
-   {  }
+  // constructor(private dataservice:DataService)
+  //  {  }
   ngOnInit(): void {
 
   }

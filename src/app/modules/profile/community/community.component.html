@@ -13,7 +13,8 @@
     <h6 class="head">YOUR COMMUNITIES</h6>
 
     <div class="d-flex community2 " *ngFor="let i of community">
-        <div class="round" style="background-image:url(../../../../assets/Rectangle\ 9.png)">
+      <!-- {{i.image}} -->
+        <div class="round" [ngStyle]="{ 'background-image': 'url(' + i.image + ')' }">
             <!-- <img src="../../../assets/Rectangle 9.png"> -->
         </div>
         <div class="container">

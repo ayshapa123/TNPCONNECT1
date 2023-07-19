@@ -28,7 +28,11 @@
     position: relative;
     padding-left: 60px;
 }
-
+.col i {
+    font-size: 24px;
+    -webkit-text-stroke: 1px #9BA9AA;
+    -webkit-text-fill-color: transparent;
+  }
 .col::before{
     content: '';
     top: 0;
@@ -70,6 +74,10 @@ i{
 @media (max-width:770px) {
     .row{
         display:block;
+    }
+    .section{
+        padding: 0% 0% 2% 11% ;
+ 
     }
 }
 

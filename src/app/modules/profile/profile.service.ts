@@ -7,10 +7,9 @@ import { HttpClient } from '@angular/common/http';
 export class ProfileService {
 
   constructor(private http:HttpClient) { }
-  getskill(){
-    const body={
-      "email":"manojkumar"
-    }
-    return this.http.get('http://localhost:3000/skills',body)
+  
+    
+    getskill(id:any){
+    return this.http.get('http://localhost:3000/skill/${id}')
   }
 }

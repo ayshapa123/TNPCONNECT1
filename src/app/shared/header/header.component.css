@@ -150,12 +150,12 @@ font-size: 24px;
     background-repeat: no-repeat;
 
 }
- @media (max-width: 852px){
+ /* @media (max-width: 852px){
     input{
         width:12%;
         padding-left: 3%;
     }
     
-}
+} */
 
 
